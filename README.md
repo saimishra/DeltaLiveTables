@@ -476,3 +476,5 @@ Incremental aggregation
 Simple distributive aggregates like count, min, max, or sum, and algebraic aggregates like average or standard deviation can also be calculated incrementally. Databricks recommends incremental aggregation for queries with a limited number of groups, for example, a query with a GROUP BY country clause.
 
 Only new input data is read with each update, but the underlying Delta table is completely overwritten.
+
+https://docs.microsoft.com/en-us/azure/databricks/data-engineering/delta-live-tables/delta-live-tables-user-guide
